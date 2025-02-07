@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客主页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="img/myphoto.jpg" alt="">
+        <span class="title">我的博客</span>
+         <!-- 使用 span 把左右两侧的元素给撑开 -->
+         <span class="spacer"></span>
+        <a href="blog_major.html">博客主页</a>
+        <a href="blog_edit.html">发布博客</a>
+        <a href="index.html">首页</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="img/myphoto.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>Lilly Yu</h3>
+                <!-- 其它信息 -->
+                <a href="https://blog.csdn.net/weixin_61370021?type=blog">CSDN</a>
+                <a href="https://github.com/">GitHub</a>
+                <a href="https://gitee.com/">Gitee</a>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>3</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 每个 blog 代表一篇博客 -->
+            <div class="blog">
+                <div class="title">关于HTML能做什么</div>
+                <div class="date">2022-4-6</div>
+                <div class="desc">
+                    HTML是超文本标记语言，是一个网站页面的主要内容和主体框架。主要用来实现静态页面，目前我们看到的文字、图片、动画、声音、表格、超链接等网页元素都是通过HTML实现的。HTML是由各种标签组成的，所学习HTML就是在了解HTML主体框架的结构基础上学习各种标签的使用方法。
+                </div>
+                <a href="https://w1174.blog.csdn.net/article/details/123767114?spm=1001.2014.3001.5502" class="detail">查看全文&gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">关于CSS能做什么</div>
+                <div class="date">2022-4-8</div>
+                <div class="desc">
+                    CSS是层叠样式表，主要用来控制调整网页的样式，它与网页的结构和内容没有关系，仅仅是通过不同语义的标签来调整网页内容的不同表现样式。在网页上实现CSS样式调整一般有两种方式：内嵌式，将CSS代码集中写到HTML文档的头部标签中，并用style标记定义，一般位于head标记中的title标记之后，简而言之就是直接在THML文件中直接添加CSS样式的方式；嵌入式，是将所有的样式放在一个或多个以CSS为拓展名的外部样式表文件中，通过标记将外部样式表文件链接到HTML文件中。
+                </div>
+                <a href="https://w1174.blog.csdn.net/article/details/123931847?spm=1001.2014.3001.5502" class="detail">查看全文&gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">关于Javascript能做什么</div>
+                <div class="date">2022-4-10</div>
+                <div class="desc">
+                    JavaScript是一种完整的网页脚本语言，可以完成复杂的程序逻辑，而HTML和CSS仅仅是标记语言，不具备编程语言的程序逻辑。JavaScript主要负责网页的各式各样的动态功能，因此可以为用户提供更流畅美观的页面浏览效果，以及添加页面交互行为，给用户更好的视觉和使用体验。JavaScript的工作原理是通过在HTML网页中直接嵌入JS脚本，可以实现相应浏览器时间，读写HTML元素内容，更改HTML元素样式等功能。
+                </div>
+                <a href="https://w1174.blog.csdn.net/article/details/124390854?spm=1001.2014.3001.5502" class="detail">查看全文&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"> 
+</script>
+</html>

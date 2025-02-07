@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>相册主页</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- ------------------------------------------------- -->
+    <link rel="stylesheet" href="css/fullpage.min.css" />
+    <!-- 引入animate -->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/style-3.css" />
+    <link rel="stylesheet" href="./css/jaliswall.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <!-- ------------------------------------------------- -->
+    <script src="js/jQuery.mini.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        /* 轮播圆点颜色 */
+        #fp-nav ul li a span {
+            background-color: #fff !important;
+        }
+
+        /* 左右滑块的样式 */
+        .fp-bottom ul {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* 三屏的圆点颜色 */
+        .fp-bottom ul li a span {
+            background-color: rgb(255, 255, 255);
+        }
+
+        body {
+            background-image: linear-gradient(#48f1d5, #fff, #ffa4a4);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="dowebok">
+        <!-- <h3>第三屏</h3> -->
+        <div class="section sec3" id="section3">
+            <!-- 导航栏 -->
+            <div class="nav">
+                <img src="img/myphoto.jpg" alt="">
+                <span class="title">我的相册</span>
+                <!-- 使用 span 把左右两侧的元素给撑开 -->
+                <span class="spacer"></span>
+                <a href="album.html">轮播相册</a>
+                <a href="magic_album.html">魔方相册</a>
+                <a href="index.html">首页</a>
+            </div>
+            <div class="slide">
+                <img src="./img/s-1.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./img/s-2.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./img/s-3.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./img/s-4.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./img/s-5.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.min.js">
+</script>
+
+</html>
